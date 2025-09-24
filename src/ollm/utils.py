@@ -22,11 +22,7 @@ class Stats:
         self.d[name].append( round(time.perf_counter() - t1, 3) ) 
 
     def print_and_clean(self):
-        st = "Stats:"
-        for name, a in self.d.items():
-            st+=f" {name}: {a[:5]} t:{round(sum(a), 3)},"
-        self.d = {}
-        return st
+        return ""
 
 
 # === Helper utilities ===
