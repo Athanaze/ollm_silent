@@ -18,8 +18,9 @@ class Stats:
         self.d = {}
 
     def set(self, name, t1):
-        if name not in self.d: self.d[name] = []
-        self.d[name].append( round(time.perf_counter() - t1, 3) ) 
+        pass
+        #if name not in self.d: self.d[name] = []
+        #self.d[name].append( round(time.perf_counter() - t1, 3) ) 
 
     def print_and_clean(self):
         return ""
