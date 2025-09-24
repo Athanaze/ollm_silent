@@ -150,7 +150,7 @@ class MyQwen3NextModel(Qwen3NextModel):
 				**kwargs,
 			)
 
-		print("./qwen3_next.forward.", datetime.now().strftime("%H:%M:%S"), stats.print_and_clean() if stats else "")
+		#print("./qwen3_next.forward.", datetime.now().strftime("%H:%M:%S"), stats.print_and_clean() if stats else "")
 		hidden_states = self.norm(hidden_states)
 		#================================================
 
